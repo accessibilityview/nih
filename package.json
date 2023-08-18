@@ -1,0 +1,11 @@
+{
+  "name": "nih",
+  "version": "0.1.0",
+  "description": "Accessibility View for NIH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
+  "license": "CC-BY-4.0"
+}
