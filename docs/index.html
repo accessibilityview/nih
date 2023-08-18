@@ -28,46 +28,31 @@
 
         async function init() {
             let date = "2023-08-18";
+            let prettyDate = "August 18, 2023";
+            let organization = "NIH";
 
-            // get mobile pages
-            let mobilePages = await fetchJsonWithUrl("mobile-pages", `/reports/mobile/${date}/ci-result.json`);
-            console.log(mobilePages);
-            // get mobile wcag errors
+            let mobilePages = await fetchJson(`/reports/mobile/${date}/ci-result.json`);
+            let mobileWcagErrors = await fetchJson(`/reports/mobile/${date}/errors-summary-wcag.json`);
+            let mobileErrorCount = Array.from(Object.values(mobileWcagErrors)).reduce((sum, value) => sum + value, 0);
 
-            // get desktop pages
-            // get desktop wcag errors
+            let desktopPages = await fetchJson(`/reports/desktop/${date}/ci-result.json`);
+            let desktopWcagErrors = await fetchJson(`/reports/desktop/${date}/errors-summary-wcag.json`);
+            let desktopErrorCount = Array.from(Object.values(desktopWcagErrors)).reduce((sum, value) => sum + value, 0);
 
+            document.querySelector("#reportDate").innerHTML = prettyDate;
+            document.querySelector("#reportOrganization").innerHTML = organization;
+            document.querySelector("#reportPages").innerHTML = new Intl.NumberFormat().format(mobilePages.length + desktopPages.length);
+            document.querySelector("#reportErrors").innerHTML = new Intl.NumberFormat().format(mobileErrorCount + desktopErrorCount);
         }
 
-        /**
-         * Fetches remote json, throws "newdata" event
-         * Also creates global variable with payload
-         */
-        async function fetchJsonWithUrl(key, url) {
-            fetch(url)
-                .then((response) => {
-                    if (!response.ok) {
-                        throw new Error(`Problem fetching ${key} ${url}: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then((json) => {
-                    let detail = {
-                        key: key,
-                        url: url,
-                        json: json
-                    };
-                    window.dispatchEvent(new CustomEvent("newdata", {
-                        detail: detail
-                    }));
-                    window[key] = detail;
-                    console.log(window[key]);
-                    return json;
-                })
-                .catch((err) => {
-                    console.error(err);
-                });
+        async function fetchJson(url) {
+            let response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch: ${response}`);
+            }
+            return await response.json();
         }
+
 
     </script>
 </head>
@@ -226,16 +211,17 @@
                 <div class="usa-hero__callout">
                     <h1 class="usa-hero__heading">
                         <span class="usa-hero__heading--alt">Section 508 Pro:</span>
-                        <a href="https://www.nih.gov">NIH - National Institutes of Health</a>
+                        NIH - National Institutes of Health
                     </h1>
                     <!--p>
           Section 508 compliance is more than a checklist. Section 508 Pro is a holistic tool that can help you make WCAG 2.0 AA accessibility compliance the "new normal" for your agency. 
           </p-->
                     <p>
-                        On August 8th, 2023 we visited 9,324 federal web pages.
+                        On <span id="reportDate">August 8th, 2023</span> we visited <span id="reportPages">9,324</span>
+                        <span id="reportOrganization">federal</span> web pages.
                     </p>
                     <p>
-                        We found 33,244 accessibility errors on those pages.
+                        We found <span id="reportErrors">33,244</span> accessibility errors on those pages.
                     </p>
 
                     <!--a class="usa-button" href="https://section508.gov">Learn More About Section 508</a-->
