@@ -4,8 +4,15 @@
   "description": "Accessibility View for NIH",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "node rollup.js",
+    "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.nih.gov --mobile  --output-path reports/mobile/$TODAY ",
+    "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.nih.gov --desktop --output-path reports/desktop/$TODAY ",
+    "summary": "node summary.js",
+    "test":  "npm run testm; npm run testd; npm run summary"
   },
   "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "walker": "^1.0.8"
+  }
 }
