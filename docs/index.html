@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NIH | Section 508 Pro</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- uswds -->
     <script src="assets/uswds/dist/js/uswds-init.min.js"></script>
     <link rel="stylesheet" href="assets/uswds/dist/css/uswds.min.css" />
 
@@ -14,6 +22,54 @@
             color: white;
         }
     </style>
+
+    <script>
+        window.addEventListener('load', init);
+
+        async function init() {
+            let date = "2023-08-18";
+
+            // get mobile pages
+            let mobilePages = await fetchJsonWithUrl("mobile-pages", `/reports/mobile/${date}/ci-result.json`);
+            console.log(mobilePages);
+            // get mobile wcag errors
+
+            // get desktop pages
+            // get desktop wcag errors
+
+        }
+
+        /**
+         * Fetches remote json, throws "newdata" event
+         * Also creates global variable with payload
+         */
+        async function fetchJsonWithUrl(key, url) {
+            fetch(url)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error(`Problem fetching ${key} ${url}: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then((json) => {
+                    let detail = {
+                        key: key,
+                        url: url,
+                        json: json
+                    };
+                    window.dispatchEvent(new CustomEvent("newdata", {
+                        detail: detail
+                    }));
+                    window[key] = detail;
+                    console.log(window[key]);
+                    return json;
+                })
+                .catch((err) => {
+                    console.error(err);
+                });
+        }
+
+    </script>
 </head>
 
 <body>
