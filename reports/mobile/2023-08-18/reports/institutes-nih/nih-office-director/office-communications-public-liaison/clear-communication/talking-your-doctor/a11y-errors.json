@@ -1,0 +1,147 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list-landing > div.teaser-clickable > h4.teaser-title",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 663,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Part I: Preparing for Your Medical Appointment (4:37)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-127-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-clickable > div.teaser-thumbnail > div > a",
+            "boundingRect": {
+              "top": 591,
+              "bottom": 610,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.youtube.com/embed/Lp4rxRTZKnA?autoplay=1\" rel=\"shadowbox; width=640; height=360 noopener noreferrer\" onmousedown=\"_sendEvent('Outbound','www.youtube.com','/embed/Lp4rxRTZKnA',0);\" target=\"_blank\">",
+            "nodeLabel": "div.teaser-clickable > div.teaser-thumbnail > div > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 932,
+              "bottom": 951,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.youtube.com/embed/LGBT7hSdQT8?autoplay=1\" rel=\"shadowbox; width=640; height=360 noopener noreferrer\" onmousedown=\"_sendEvent('Outbound','www.youtube.com','/embed/LGBT7hSdQT8',0);\" target=\"_blank\">",
+            "nodeLabel": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-clickable > div.teaser-thumbnail > div > a",
+            "boundingRect": {
+              "top": 1274,
+              "bottom": 1293,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.youtube.com/embed/aRpIwIQG_vc?autoplay=1\" rel=\"shadowbox; width=640; height=360 noopener noreferrer\" onmousedown=\"_sendEvent('Outbound','www.youtube.com','/embed/aRpIwIQG_vc',0);\" target=\"_blank\">",
+            "nodeLabel": "div.teaser-clickable > div.teaser-thumbnail > div > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has an empty title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

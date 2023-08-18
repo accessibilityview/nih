@@ -1,0 +1,129 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-228-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 398,
+              "bottom": 444,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Institutes of Hope: Help Us Help You",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-229-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 545,
+              "bottom": 568,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Public Involvement with NIH",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-230-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 683,
+              "bottom": 706,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Outreach and Education",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 821,
+              "bottom": 844,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Small Business Opportunities",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-232-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,4,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 960,
+              "bottom": 982,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Tribal Guidance",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

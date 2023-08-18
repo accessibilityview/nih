@@ -1,0 +1,734 @@
+[
+  {
+    "path": "/",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/calendar-events-frequently-asked-questions",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/john-edward-porter-neuroscience-research-center",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/nih-research-planning",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/visitor-information/campus-access-security",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/visitor-information/campus-shuttle",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/visitor-information/driving-directions",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/visitor-information/maps",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/visitor-information/popular-nih-destinations",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/frequently-asked-questions-nih-commissioned-study-race-ethnicity-nih-research-awards",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/get-involved-nih",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/get-involved-nih/nih-outreach-education",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/get-involved-nih/public-involvement-nih",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/get-involved-nih/small-business-opportunities",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health/brain-mental-health",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health/genetic-diseases",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health/heart-lung-kidney-health",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health/substance-use",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/improving-health/technology-patient-care",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science/partnerships",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science/research-all",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science/research-approaches",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science/resource-sharing",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/revolutionizing-science/scientific-breakthroughs",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/serving-society",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/serving-society/direct-economic-contributions",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/serving-society/societal-benefits-improved-health",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/serving-society/societal-benefits-research",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/what-we-do/impact-nih-research/serving-society/spurring-economic-growth",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/mission-goals",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-almanac/james-m-anderson-md-phd",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-almanac/national-institute-diabetes-digestive-kidney-diseases-niddk",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-almanac/national-institute-mental-health-nimh",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-almanac/national-institute-nursing-research-ninr",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-almanac/ronald-w-lamont-havers-md",
+    "score": 0.89
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health",
+    "score": 0.91
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health-/heart-disease-stroke",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/cancer-2020",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/cancer-immunotherapy",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/hiv/aids",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/infectious-diseases-2020",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/obesity-nutrition",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nih-turning-discovery-into-health/oral-health",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nihe280a6turning-discovery-into-healthc2ae/director",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/nihe280a6turning-discovery-into-healthc2ae/healthy-mind",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/about-science-health-public-trust",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/beyond-primary-endpoints-what-believe",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/checklist-communicating-science-health-research-public",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/being-transparent-about-conflicts-interest",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/cacophony-science-health-information",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/challenges-understanding-communicating-health-risks",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/magnifying-your-messaging",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/responsible-communication-basic-biomedical-research",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/building-trust-vaccines",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/communicating-about-risky-research/addressing-rigor-scientific-studies",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/communicating-value-race-ethnicity-research",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/crafting-science-news-release",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/putting-cancer-screening-perspective",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/responsible-reporting-suicide",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/science-health-public-trust/addiction-substance-use-disorders-tips-communicating-without-stigma",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/science-health-public-trust/building-covid-19-vaccine-confidence-through-behavioral-social-science",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/perspectives/science-health-public-trust/science-health-public-trust/making-effective-use-preprints-tips-communicators",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/resources",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/what-we-do/science-health-public-trust/tools",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/best-place-worst-thing-happen",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/who-we-are/i-never-knew-how-it-was-feel-free",
+    "score": 0.91
+  },
+  {
+    "path": "/about-nih/who-we-are/i-was-tired-fighting-disease",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/who-we-are/it-was-scariest-time-my-life-not-knowing-why-xavier-was-sick",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/benefits-risks-influenza-research",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/dr-collins-speaks-associated-press-lauran-neergaard-about-jj-single-dose-covid-19-vaccine",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/interview-ethix-dr-collins-covers-range-topics-opioid-crisis-dna-privacy-issues",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/nih-roadmap/common-fund-10",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/qa-usa-today-editorial-board-dr-collins-discusses-range-covid-19-related-topics",
+    "score": 0.91
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/articles/qa-washington-post-health-202-dr-collins-discusses-all-of-us-research-program",
+    "score": 0.92
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/congressional-testimonies/testimony-fiscal-year-2023-budget-request-before-house-committee",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/congressional-testimonies/testimony-fiscal-year-2023-budget-request-before-senate-committee",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/congressional-testimonies/testimony-fy-2024-budget-request-before-house",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/congressional-testimonies/testimony-fy-2024-budget-request-before-senate-committee",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/congressional-testimonies/testimony-ongoing-federal-response-covid-19-current-status-future-planning",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/fiscal-year-2006-institutes-centers-budget-statements",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/fiscal-year-2011-budget-request-house",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/statements/comments-regarding-nhlbi-director-elizabeth-g-nabel-md",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/statements/nihs-role-american-recovery-reinvestment-act-arra",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/statements/selection-dr-matthew-gillman-echo-program-director",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/statements/statement-departure-dr-philip-e-bourne",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/statements/statement-nih-chimpanzees-keeling-center-comparative-medicine-research",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/testimony-fiscal-year-2019-budget-request-before-senate-committee",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/testimony-investments-medical-research-five-institutes-centers-national-institutes-health",
+    "score": 0.95
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery",
+    "score": 0.96
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery/dr-collins-addresses-vaccine-hesitancy-interview-fox-news’-neil-cavuto",
+    "score": 0.93
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery/dr-collins-discusses-his-phd-thesis-nature-reflects-his-career-trajectory-theoretical-chemistry-biology",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery/dr-collins-fox-news-medical-contributor-dr-marc-siegel-discuss-range-covid-19-related-issues",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery/hugh-hewitt-radio-show-dr-collins-discusses-pause-jj-vaccine-other-covid-news",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/nih-director/video-sound-gallery/video-remarks-dr-francis-collins-61st-lindau-nobel-laureate-meeting-0",
+    "score": 0.94
+  },
+  {
+    "path": "/about-nih/who-we-are/we-are-team",
+    "score": 0.93
+  },
+  {
+    "path": "/accessibility",
+    "score": 0.96
+  },
+  {
+    "path": "/activ/definitions-status-terminology-activ-therapeutic-agents",
+    "score": 0.84
+  },
+  {
+    "path": "/activ/nih-funded-activ/activ-associated-clinical-trials",
+    "score": 0.95
+  },
+  {
+    "path": "/allofus-research-program/announcements/all-us-research-program-announces-vacancy-chief-technology-officer",
+    "score": 0.96
+  },
+  {
+    "path": "/allofus-research-program/b-vindell-washington-md-mhcm-facep",
+    "score": 0.95
+  },
+  {
+    "path": "/allofus-research-program/faces-precision-medicine-initiative-eric-dishman",
+    "score": 0.93
+  },
+  {
+    "path": "/anti-sexual-harassment",
+    "score": 0.96
+  },
+  {
+    "path": "/anti-sexual-harassment/frequently-asked-questions",
+    "score": 0.96
+  },
+  {
+    "path": "/anti-sexual-harassment/laws-regulations",
+    "score": 0.96
+  },
+  {
+    "path": "/anti-sexual-harassment/nih-awardee-organizations-those-who-work-there",
+    "score": 0.96
+  },
+  {
+    "path": "/anti-sexual-harassment/nih-staff",
+    "score": 0.94
+  },
+  {
+    "path": "/anti-sexual-harassment/statements-notices",
+    "score": 0.96
+  },
+  {
+    "path": "/climate-change-health/additional-nih-funding-related-climate-health",
+    "score": 0.96
+  },
+  {
+    "path": "/climate-change-health/cog-wheel-display-strategic-framework",
+    "score": 0.93
+  },
+  {
+    "path": "/climate-change-health/meet-2023-nih-climate-health-scholars",
+    "score": 0.96
+  },
+  {
+    "path": "/climate-change-health/past-funding-opportunities",
+    "score": 0.96
+  },
+  {
+    "path": "/climate-change-health/past-seminar-series",
+    "score": 0.96
+  },
+  {
+    "path": "/disclaimers",
+    "score": 0.96
+  },
+  {
+    "path": "/draft-ftac",
+    "score": 0.96
+  },
+  {
+    "path": "/echo/announcements",
+    "score": 0.96
+  },
+  {
+    "path": "/echo/echos-early-progress-plans-enhance-child-health-2017-beyond",
+    "score": 0.96
+  },
+  {
+    "path": "/echo/frequently-asked-questions-echo-measurement-core-rfa-od-22-020",
+    "score": 0.96
+  },
+  {
+    "path": "/echo/information-updates",
+    "score": 0.96
+  },
+  {
+    "path": "/echo/nih-echo-program-announces-funding-opportunity-supplements-promote-diversity-health-related-research",
+    "score": 0.96
+  },
+  {
+    "path": "/ending-structural-racism/creating-new-research-health-disparities-minority-health-health-equity",
+    "score": 0.96
+  },
+  {
+    "path": "/ending-structural-racism/funding-opportunity-historically-under-resourced-institutions-produce-distribute-neurotechnology-resources",
+    "score": 0.93
+  },
+  {
+    "path": "/ending-structural-racism/intramural-research-program-irp-demographics",
+    "score": 0.96
+  },
+  {
+    "path": "/ending-structural-racism/national-institutes-health-nih-workforce-demographics",
+    "score": 0.96
+  },
+  {
+    "path": "/ending-structural-racism/nih-extramural-applicants-awardees",
+    "score": 0.94
+  },
+  {
+    "path": "/ending-structural-racism/tribal-nations-american-indian/alaska-native-communities-virtual-listening-session",
+    "score": 0.96
+  },
+  {
+    "path": "/farewell-dr-francis-collins",
+    "score": 0.91
+  },
+  {
+    "path": "/grants-funding",
+    "score": 0.96
+  },
+  {
+    "path": "/guidance-private-account-social-media-use-individuals-nih",
+    "score": 0.96
+  },
+  {
+    "path": "/harvey-alter-md-wins-2020-nobel-prize-physiology-or-medicine",
+    "score": 0.93
+  },
+  {
+    "path": "/heal-initiative/heal-partnership-committee-meeting-august-1-2019",
+    "score": 0.96
+  },
+  {
+    "path": "/health-information",
+    "score": 0.93
+  },
+  {
+    "path": "/health-information/emotional-wellness-toolkit",
+    "score": 0.94
+  },
+  {
+    "path": "/health-information/environmental-wellness-toolkit",
+    "score": 0.94
+  },
+  {
+    "path": "/health-information/health-info-lines",
+    "score": 0.96
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/educational-resources",
+    "score": 0.95
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/immunotherapy-clinical-trials-sue-scotts-story-survival",
+    "score": 0.94
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/researcher-story-children-clinical-studies",
+    "score": 0.93
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/researcher-story-stuttering",
+    "score": 0.94
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/volunteer-help-end-hiv/aids",
+    "score": 0.96
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/volunteer-story-dewayne-mild-cognitive-impairment/alzheimers-disease",
+    "score": 0.93
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/volunteer-story-lisa-hormonal-changes-midlife-healthy-volunteer",
+    "score": 0.93
+  },
+  {
+    "path": "/health-information/nih-clinical-research-trials-you/volunteer-story-socrates-hiv/aids-vaccine-research",
+    "score": 0.95
+  },
+  {
+    "path": "/health-information/nih-weight-nation",
+    "score": 0.93
+  },
+  {
+    "path": "/health-information/social-wellness-toolkit",
+    "score": 0.94
+  },
+  {
+    "path": "/include-project",
+    "score": 0.93
+  },
+  {
+    "path": "/include-project/archived-include-project-research-plan",
+    "score": 0.96
+  },
+  {
+    "path": "/include-project/building-diverse-community-down-syndrome-research-virtual-workshop",
+    "score": 0.96
+  },
+  {
+    "path": "/include-project/data-sharing",
+    "score": 0.93
+  },
+  {
+    "path": "/include-project/events",
+    "score": 0.96
+  },
+  {
+    "path": "/include-project/planning-virtual-down-syndrome-cohort-across-lifespan-workshop",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/directors-nih-institutes-centers",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/list-institutes-centers",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-institute-center-contact-information",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/administration-services",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/communications",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/clear-health-nih",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/cultural-respect",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/health-literacy",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/language-access-clear-communication",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language/before-you-start-writing",
+    "score": 0.94
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language/national-institutes-health-nih-health-literacy-month-october-2022",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language/resources",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language/testing-revising",
+    "score": 0.94
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language/training",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/resources-effective-health-communication",
+    "score": 0.92
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/community-liaison-council-meeting-minutes-september-19-2019",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/community-liaison-council-meeting-minutes-thursday-january-10-2019",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/community-liaison-council-meeting-minutes-thursday-march-15-2018",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/contact-ocpl",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/fees",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/ic-directors-meeting-highlights-thursday-january-18-2018",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/ic-directors-meeting-highlights-thursday-may-3-2018",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/ic-directors’-meeting-highlights-thursday-february-9-2017",
+    "score": 0.96
+  },
+  {
+    "path": "/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office/publicly-available-information",
+    "score": 0.93
+  }
+]

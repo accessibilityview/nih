@@ -1,0 +1,243 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 401,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Gateway Center",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 379,
+              "bottom": 401,
+              "left": 975,
+              "right": 1253,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Clinical Center",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 537,
+              "bottom": 582,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 45
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Visitor Center and Nobel Laureate Exhibit Hall",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 537,
+              "bottom": 560,
+              "left": 975,
+              "right": 1253,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Lipsett Amphitheater",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-250-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,4,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 696,
+              "bottom": 718,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Masur Auditorium",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,5,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 696,
+              "bottom": 718,
+              "left": 975,
+              "right": 1253,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Natcher Building",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,6,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 854,
+              "bottom": 877,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Claude B. Pepper Building",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,7,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 854,
+              "bottom": 877,
+              "left": 975,
+              "right": 1253,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Library",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,8,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1013,
+              "bottom": 1035,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Library of Medicine",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,9,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1013,
+              "bottom": 1035,
+              "left": 975,
+              "right": 1253,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Lister Hill Center",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,10,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1171,
+              "bottom": 1193,
+              "left": 529,
+              "right": 808,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Food Service Facilities",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]

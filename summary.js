@@ -1,10 +1,10 @@
 import Walker from 'walker';
 import fs from 'fs';
 
-buildIndexJson('mobile');
-buildIndexJson('desktop');
-buildA11yJson('mobile');
-buildA11yJson('desktop');
+buildReportDates('mobile');
+buildReportDates('desktop');
+extractA11yFromLighthouse('mobile');
+extractA11yFromLighthouse('desktop');
 buildRollupJson('mobile');
 buildRollupJson('desktop');
 
@@ -37,7 +37,7 @@ const rules = {
     "html-lang-valid": ["3.1.1"],
     "image-alt": ["1.1.1"],
     "input-image-alt": ["1.1.1"],
-    "label": ["1.3.1", "4.1.2"],          
+    "label": ["1.3.1", "4.1.2"],
     "link-name": ["2.4.4", "4.1.2"],
     "list": ["1.3.1"],
     "listitem": ["1.3.1"],
@@ -46,63 +46,64 @@ const rules = {
     "td-headers-attr": ["1.3.1"],
     "valid-lang": ["3.1.2"],
     "video-caption": ["1.2.2"]
-  };
+};
 
-function buildIndexJson(type){
+
+function buildReportDates(type) {
     let dates = [];
 
     Walker(`reports/${type}`)
-    .on('dir', (dir, stat) => {
-        const dirParts = dir.split('/');
-       if(dirParts.length == 3){
-            dates.push(dir);
-       }       
-    })
-    .on('end', ()=>{
-        try{
-            fs.writeFileSync(`reports/${type}/index.json`, JSON.stringify(dates.sort(), null, 2));
-            console.log(`reports/${type}/index.json`);
-        }catch(err){
-            console.error(err);
-        }        
-    });
-}
-
-function buildA11yJson(type){    
-    Walker(`reports/${type}`)
-    .on('dir', (dir, stat) => {
-        const path = `${process.cwd()}/${dir}`;
-        let lhFile = `${path}/lighthouse.json`;
-        try {
-            if (fs.existsSync(lhFile)) {
-                let a11y = [];
-                let errors = [];
-                const lh = JSON.parse(fs.readFileSync(lhFile, 'utf8'));
-                lh.categories.accessibility.auditRefs.forEach((auditRef) => { 
-                    let audit = lh.audits[auditRef.id];
-                    a11y.push(audit); 
-                    if(audit.score == 0){                
-                        audit.errorCount = audit.details.items.length;
-                        errors.push(audit);
-                    }
-                });
-                fs.writeFileSync(`${path}/a11y.json`, JSON.stringify(a11y, null, 2));
-                fs.writeFileSync(`${path}/a11y-errors.json`, JSON.stringify(errors, null, 2));
+        .on('dir', (dir, stat) => {
+            const dirParts = dir.split('/');
+            if (dirParts.length == 3) {
+                dates.push(dir);
             }
-          } catch(err) {
-            console.error(err)
-          }
-    })
-    .on('end', ()=>{
-        try{
-            
-        }catch(err){
-            console.error(err);
-        }        
-    });
+        })
+        .on('end', () => {
+            try {
+                fs.writeFileSync(`reports/${type}/index.json`, JSON.stringify(dates.sort(), null, 2));
+                console.log(`reports/${type}/index.json`);
+            } catch (err) {
+                console.error(err);
+            }
+        });
 }
 
-function buildRollupJson(type){
+function extractA11yFromLighthouse(type) {
+    Walker(`reports/${type}`)
+        .on('dir', (dir, stat) => {
+            const path = `${process.cwd()}/${dir}`;
+            let lhFile = `${path}/lighthouse.json`;
+            try {
+                if (fs.existsSync(lhFile)) {
+                    let a11y = [];
+                    let errors = [];
+                    const lh = JSON.parse(fs.readFileSync(lhFile, 'utf8'));
+                    lh.categories.accessibility.auditRefs.forEach((auditRef) => {
+                        let audit = lh.audits[auditRef.id];
+                        a11y.push(audit);
+                        if (audit.score == 0) {
+                            audit.errorCount = audit.details.items.length;
+                            errors.push(audit);
+                        }
+                    });
+                    fs.writeFileSync(`${path}/a11y.json`, JSON.stringify(a11y, null, 2));
+                    fs.writeFileSync(`${path}/a11y-errors.json`, JSON.stringify(errors, null, 2));
+                }
+            } catch (err) {
+                console.error(err)
+            }
+        })
+        .on('end', () => {
+            try {
+
+            } catch (err) {
+                console.error(err);
+            }
+        });
+}
+
+function buildRollupJson(type) {
     const path = `${process.cwd()}/reports/${type}`;
     const dirs = JSON.parse(fs.readFileSync(`${path}/index.json`, 'utf8'));
     dirs.forEach((dir) => {
@@ -114,59 +115,59 @@ function buildRollupJson(type){
                 try {
                     if (fs.existsSync(a11yErrorsFile)) {
                         const errors = JSON.parse(fs.readFileSync(a11yErrorsFile, 'utf8'));
-                        errors.forEach((auditRef) => { 
+                        errors.forEach((auditRef) => {
                             let rollup = {}
                             rollup.id = auditRef.id;
                             rollup.errorCount = auditRef.errorCount;
-                            rollups.push(rollup);                            
+                            rollups.push(rollup);
                         });
                     }
-                  } catch(err) {
+                } catch (err) {
                     console.error(err)
-                  }
+                }
             })
-            .on('end', ()=>{
-                try{
+            .on('end', () => {
+                try {
                     // consolidate/sum multiple entries
                     let condensed = new Map();
                     rollups.forEach((it) => {
                         let sum = condensed.get(it.id) || 0;
-                        condensed.set(it.id, sum += it.errorCount);                        
+                        condensed.set(it.id, sum += it.errorCount);
                     });
 
                     // sort by errorCount, largest to smallest
-                    let condensedSorted = new Map([...condensed.entries()].sort((a,b) => b[1] - a[1]));
+                    let condensedSorted = new Map([...condensed.entries()].sort((a, b) => b[1] - a[1]));
 
                     // convert to array
                     // let sorted = Array.from(condensedSorted, ([name, value]) => ({ name, value }));
-                    
+
                     // write to file
                     // fs.writeFileSync(`./reports/${type}/${date}/summary.json`, JSON.stringify(sorted, null, 2));
                     fs.writeFileSync(`./reports/${type}/${date}/errors-summary-lighthouse.json`, JSON.stringify(Object.fromEntries(condensedSorted), null, 2));
-                    console.log(`./reports/${type}/${date}/errors-summary-lighthouse.json`); 
-                    
+                    console.log(`./reports/${type}/${date}/errors-summary-lighthouse.json`);
+
                     // convert lighthouse to wcag
                     let wcag = new Map();
                     condensed.forEach((value, key, map) => {
                         let scList = rules[key];
-                        if(scList){
+                        if (scList) {
                             scList.forEach((sc) => {
                                 let sum = wcag.get(sc) || 0;
                                 wcag.set(sc, sum += value);
-                            });    
+                            });
                         }
                     });
 
                     // sort by errorCount, largest to smallest
-                    let wcagSorted = new Map([...wcag.entries()].sort((a,b) => b[1] - a[1]));
+                    let wcagSorted = new Map([...wcag.entries()].sort((a, b) => b[1] - a[1]));
 
                     // write to file
                     fs.writeFileSync(`./reports/${type}/${date}/errors-summary-wcag.json`, JSON.stringify(Object.fromEntries(wcagSorted), null, 2));
-                    console.log(`./reports/${type}/${date}/errors-summary-wcag.json`); 
-                    
-                }catch(err){
+                    console.log(`./reports/${type}/${date}/errors-summary-wcag.json`);
+
+                } catch (err) {
                     console.error(err);
-                }        
-            });        
-    });    
+                }
+            });
+    });
 }

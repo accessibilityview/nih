@@ -1,0 +1,1231 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-355-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 232,
+              "bottom": 301,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Trial Confirms CAR T-Cell Therapy Benefits People with Aggressive Lymphomas",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-356-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 463,
+              "bottom": 554,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Pragmatica-Lung Study, a streamlined model for future cancer clinical trials, b…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-357-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,2,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 716,
+              "bottom": 831,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 114
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH study finds that immunotherapy substantially increases survival of people w…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-358-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 912,
+              "bottom": 958,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Antibody treatment protects adults against malaria",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-359-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,4,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1059,
+              "bottom": 1105,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "FORTE Colorectal Cancer Prevention Trial",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-360-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,5,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1227,
+              "bottom": 1296,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH begins clinical trial evaluating second COVID-19 booster shots in adults",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-361-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,6,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1365,
+              "bottom": 1434,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Shorter, More Intensive Radiation Safe after Surgery for Prostate Cancer",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-362-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,7,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1555,
+              "bottom": 1601,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH launches clinical trial of three mRNA HIV vaccines",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-363-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,8,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1694,
+              "bottom": 1808,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 114
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH builds large nationwide study population of tens of thousands to support re…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-364-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,9,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1950,
+              "bottom": 2018,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "For Advanced Prostate Cancer, Radiopharmaceutical Improves Survival",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-365-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,10,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2180,
+              "bottom": 2249,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Clinical trial studies immunotherapy and radiation for pancreatic cancer",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-366-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,11,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2351,
+              "bottom": 2419,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Clinical trial of therapeutics for severely ill hospitalized COVID-19 patients …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-367-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,12,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2501,
+              "bottom": 2569,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Large clinical trial to study repurposed drugs to treat COVID-19 symptoms",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-368-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2671,
+              "bottom": 2740,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH observational study of coronavirus infection in children begins",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-369-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,14,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2841,
+              "bottom": 2933,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Two patient’s stomachs kept “alive” after removal in novel study to understand …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-370-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,15,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3216,
+              "bottom": 3261,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Ultimate Survivor Recalls CC Study 65 Years Ago",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-371-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,16,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3403,
+              "bottom": 3495,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH-funded study to recruit thousands of participants to reveal exercise impact…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-372-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,17,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3617,
+              "bottom": 3708,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH clinical trial of hydroxychloroquine, a potential therapy for COVID-19, beg…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-373-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,18,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3870,
+              "bottom": 3962,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "New multiple sclerosis treatment trial compares stem cell transplantation to be…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-374-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,19,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4023,
+              "bottom": 4091,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Cancer Clinical Trials at the National Institutes of Health Clinical Center",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-375-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,20,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4253,
+              "bottom": 4345,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "New study delivers chemotherapy to the liver for metastatic colorectal cancer p…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-376-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,21,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4467,
+              "bottom": 4558,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "New clinical trial tests radiotracer for improved imaging of metastatic prostat…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-377-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,22,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4660,
+              "bottom": 4728,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "New clinical trial will determine if gliomas respond to immunotherapy",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-378-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,23,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4870,
+              "bottom": 4916,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH to test experimental drug to curb opioid cravings",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-379-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,24,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5008,
+              "bottom": 5077,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Results of trial to stem hospital-acquired bacterial infections published",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-380-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,25,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5158,
+              "bottom": 5204,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Ebola antibody treatment tested in people",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-381-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,26,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5306,
+              "bottom": 5397,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH researcher presents encouraging results for gene therapy for severe sickle …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-382-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,27,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5519,
+              "bottom": 5565,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH begins testing Ebola treatment in early-stage trial",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-383-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,28,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5687,
+              "bottom": 5755,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Defeating a rare, aggressive form of skin cancer with avelumab",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-384-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,29,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 5897,
+              "bottom": 5966,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Improving success of clinical trials for patients with Parkinson’s disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-385-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,30,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6067,
+              "bottom": 6113,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Immunotherapy Clinical Trials: Sue Scott’s Story of Survival",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-386-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,31,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6215,
+              "bottom": 6283,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Trial examines two types of digital mammography for breast cancer screening",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-387-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,32,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6425,
+              "bottom": 6471,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Join a research study for adults with depression",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-388-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,33,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6563,
+              "bottom": 6609,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Preventing HIV-Related Heart Disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-389-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,34,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6831,
+              "bottom": 6877,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Disruptive Mood Dysregulation Disorder",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-390-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,35,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 6979,
+              "bottom": 7025,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Watch Discovery’s 3-part documentary First in Human",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-391-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,36,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 7126,
+              "bottom": 7195,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH begins study of vaccine to protect against mosquito-borne diseases",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-392-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,37,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 7458,
+              "bottom": 7503,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Rare Disease Day at NIH — Feb. 27, 2017",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-393-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,38,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 7625,
+              "bottom": 7694,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Infographic: Why do researchers do different kinds of clinical studies?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-394-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,39,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 7815,
+              "bottom": 7838,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "What is Clinical Research?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-395-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,40,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 7954,
+              "bottom": 7999,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "John’s Story: amyotrophic lateral sclerosis (ALS)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-396-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,41,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8182,
+              "bottom": 8204,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Searching for Clues to Autism",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-397-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,42,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8320,
+              "bottom": 8365,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "How Study Partners are Vital to Alzheimer’s Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-398-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,43,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8507,
+              "bottom": 8576,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "How a Mom, a Scientist, and NICHD Joined to Fight a Rare Disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-399-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,44,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8677,
+              "bottom": 8723,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Taking a swing at Alzheimer’s disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-400-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,45,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8816,
+              "bottom": 8861,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Kayla’s Story: A Bright Future Through NIH Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-401-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,46,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 8954,
+              "bottom": 8999,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Working to Prevent Breast Cancer",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-402-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,47,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9092,
+              "bottom": 9138,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Reducing the Burden of Hepatitis",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-403-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,48,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9230,
+              "bottom": 9253,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National HIV Testing Day",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-404-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,49,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9368,
+              "bottom": 9391,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Helping People Breathe Easier",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-405-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,50,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9506,
+              "bottom": 9529,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "You Can Help Stop TB",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-406-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,51,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9644,
+              "bottom": 9690,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Volunteer to Help End HIV/AIDS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-407-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,52,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9782,
+              "bottom": 9828,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Seeking Volunteers for this Flu Season",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-408-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,53,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 9921,
+              "bottom": 9966,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Helping Kids with Severe Eczema",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-409-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,54,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10059,
+              "bottom": 10104,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Guiding Principles for Ethical Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-410-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,55,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10197,
+              "bottom": 10243,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Taking the Bite Out of Food Allergy",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-411-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,56,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10335,
+              "bottom": 10358,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Research in Action",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-412-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,57,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10473,
+              "bottom": 10519,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Database for Autism Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-413-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,59,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10738,
+              "bottom": 10784,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Age-related Macular Degeneration (AMD)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-414-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,60,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 10877,
+              "bottom": 10922,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Thinking Globally, Acting Locally Against Malaria",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-415-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,61,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 11015,
+              "bottom": 11038,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH RAMPART Study\n(link is external)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-416-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,62,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 11153,
+              "bottom": 11176,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "GuLF Study",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-417-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,63,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 11291,
+              "bottom": 11314,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Stuttering",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 63
+  }
+]

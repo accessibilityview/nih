@@ -1,0 +1,224 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-272-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,0,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 343,
+              "bottom": 411,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "In a profile interview for PBS NewsHour, Dr. Collins reflects on his tenure as …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-273-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,1,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 553,
+              "bottom": 645,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins discusses the importance of COVID-19 boosters on the Bobby Bones Sh…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-274-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,2,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 827,
+              "bottom": 896,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 69
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "CBS Sunday Morning’s Rita Braver profiles Dr. Collins on his last day as NIH Di…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-275-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,3,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1118,
+              "bottom": 1210,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins joins NPR Weekend Edition to talk about the COVID omicron variant, …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,4,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1351,
+              "bottom": 1466,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 114
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "On CBS Face the Nation, Dr. Collins provides an update on the omicron variant a…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-277-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,5,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1608,
+              "bottom": 1699,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins joins Washington Post live to discuss his tenure as NIH director du…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,6,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1841,
+              "bottom": 1955,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 114
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins and Dr. John Torres discuss the state of the pandemic and more on N…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-279-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,7,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2097,
+              "bottom": 2189,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 92
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins discusses the importance of investing in biomedical research on the…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,8,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2371,
+              "bottom": 2508,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 137
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "On Sunday’s Meet the Press, Dr. Collins addresses questions related to the new …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,UL,9,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2650,
+              "bottom": 2765,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 114
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Dr. Collins joins PBS NewsHour host Judy Woodruff to discuss the COVID-19 pande…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

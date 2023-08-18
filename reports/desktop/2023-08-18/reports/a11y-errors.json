@@ -1,0 +1,148 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1032,
+              "left": 225,
+              "right": 469,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Take the Virtual Tour",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-277-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1032,
+              "left": 617,
+              "right": 861,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "The NIH Director",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,2,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1032,
+              "left": 1009,
+              "right": 1253,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Funding for Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-279-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,3,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1151,
+              "bottom": 1174,
+              "left": 225,
+              "right": 469,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Labs at NIH",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,4,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1151,
+              "bottom": 1174,
+              "left": 617,
+              "right": 861,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Impact of NIH Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,5,DIV,1,H4",
+            "selector": "div.ds-1col > div > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1151,
+              "bottom": 1174,
+              "left": 1009,
+              "right": 1253,
+              "width": 244,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Jobs at NIH",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

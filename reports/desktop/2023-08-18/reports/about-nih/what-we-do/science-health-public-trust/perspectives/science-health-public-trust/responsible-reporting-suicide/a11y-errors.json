@@ -1,0 +1,161 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV,0,P",
+            "selector": "div.l-content > div.ds-1col > div.callout > p.caption",
+            "boundingRect": {
+              "top": 1693,
+              "bottom": 1713,
+              "left": 404,
+              "right": 1225,
+              "width": 821,
+              "height": 19
+            },
+            "snippet": "<p class=\"caption\">",
+            "nodeLabel": "Suicidal thoughts or actions (even in very young children) are a sign of extrem…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-244-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV",
+                  "selector": "div.l-content-wrapper > div.l-content > div.ds-1col > div.callout",
+                  "boundingRect": {
+                    "top": 1676,
+                    "bottom": 1803,
+                    "left": 382,
+                    "right": 1253,
+                    "width": 871,
+                    "height": 127
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "Suicidal thoughts or actions (even in very young children) are a sign of extrem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-245-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV,1,P",
+            "selector": "div.l-content > div.ds-1col > div.callout > p.caption",
+            "boundingRect": {
+              "top": 1721,
+              "bottom": 1760,
+              "left": 404,
+              "right": 1225,
+              "width": 821,
+              "height": 39
+            },
+            "snippet": "<p class=\"caption\">",
+            "nodeLabel": "If you or someone you know needs immediate help, call the National Suicide Prev…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-244-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV",
+                  "selector": "div.l-content-wrapper > div.l-content > div.ds-1col > div.callout",
+                  "boundingRect": {
+                    "top": 1676,
+                    "bottom": 1803,
+                    "left": 382,
+                    "right": 1253,
+                    "width": 871,
+                    "height": 127
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "Suicidal thoughts or actions (even in very young children) are a sign of extrem…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV,2,P",
+            "selector": "div.l-content > div.ds-1col > div.callout > p.caption",
+            "boundingRect": {
+              "top": 1767,
+              "bottom": 1787,
+              "left": 404,
+              "right": 1225,
+              "width": 821,
+              "height": 19
+            },
+            "snippet": "<p class=\"caption\">",
+            "nodeLabel": "Learn more about ways you can help someone who might be at risk for self-harm.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-244-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,11,DIV",
+                  "selector": "div.l-content-wrapper > div.l-content > div.ds-1col > div.callout",
+                  "boundingRect": {
+                    "top": 1676,
+                    "bottom": 1803,
+                    "left": 382,
+                    "right": 1253,
+                    "width": 871,
+                    "height": 127
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "Suicidal thoughts or actions (even in very young children) are a sign of extrem…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 469,
+              "bottom": 491,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Grants Home Page",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 469,
+              "bottom": 491,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Find Funding",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 650,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Due Dates",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 650,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "How to Apply",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,4,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 786,
+              "bottom": 808,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "About Grants",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,5,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 786,
+              "bottom": 808,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Policy & Compliance",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,6,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 944,
+              "bottom": 967,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Grants News/Blog",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,7,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 944,
+              "bottom": 967,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Contracts",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,8,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1102,
+              "bottom": 1125,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Loan Repayment",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]

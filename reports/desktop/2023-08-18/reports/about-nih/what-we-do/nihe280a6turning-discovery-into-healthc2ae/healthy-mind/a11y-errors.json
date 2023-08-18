@@ -1,0 +1,110 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 548,
+              "bottom": 571,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Alzheimer’s Disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 664,
+              "bottom": 687,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Traumatic Brain Injury (TBI)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 780,
+              "bottom": 803,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Parkinson’s Disease",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,4,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 896,
+              "bottom": 919,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Mental Health",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 469,
+              "bottom": 491,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Mission and Goals",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 469,
+              "bottom": 491,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Budget",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 650,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "The NIH Almanac",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-238-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 627,
+              "bottom": 672,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 45
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH...Turning Discovery Into Health®",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-239-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,4,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 786,
+              "bottom": 808,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Impact of NIH Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,5,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 786,
+              "bottom": 808,
+              "left": 689,
+              "right": 968,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Get Involved at NIH",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,6,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 944,
+              "bottom": 967,
+              "left": 243,
+              "right": 522,
+              "width": 279,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Science, Health, and Public Trust",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,1,ASIDE,0,DIV,1,DIV,0,DIV,0,P,0,A",
+            "selector": "div.content > div.ds-1col > p > a",
+            "boundingRect": {
+              "top": 334,
+              "bottom": 334,
+              "left": 1019,
+              "right": 1019,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/virtual-tour\">",
+            "nodeLabel": "div.content > div.ds-1col > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,1,ASIDE,0,DIV,1,DIV,0,DIV,1,DIV,1,A",
+            "selector": "div.content > div.ds-1col > div.media > a",
+            "boundingRect": {
+              "top": 521,
+              "bottom": 521,
+              "left": 1019,
+              "right": 1019,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/virtual-tour\">",
+            "nodeLabel": "div.content > div.ds-1col > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

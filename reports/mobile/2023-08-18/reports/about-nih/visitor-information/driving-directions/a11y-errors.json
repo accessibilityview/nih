@@ -1,0 +1,186 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-245-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,2,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 458,
+              "bottom": 504,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia or Maryland",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,11,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 801,
+              "bottom": 847,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,16,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 1041,
+              "bottom": 1087,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,21,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 1222,
+              "bottom": 1268,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia or Maryland",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,24,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 1392,
+              "bottom": 1438,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-250-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,29,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 1632,
+              "bottom": 1655,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Maryland",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,34,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 1871,
+              "bottom": 1917,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,39,H4",
+            "selector": "div.syndicate > div > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 2082,
+              "bottom": 2127,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "From I-495 (Capital Beltway) in Northern Virginia",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

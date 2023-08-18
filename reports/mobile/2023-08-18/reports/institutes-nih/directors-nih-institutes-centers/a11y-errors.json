@@ -1,0 +1,547 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-275-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 332,
+              "bottom": 378,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Lawrence A. Tabak, D.D.S., Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-276-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,0,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 534,
+              "bottom": 557,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Monica Bertagnolli, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-277-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,2,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 843,
+              "bottom": 866,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Gary H. Gibbons, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,3,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 981,
+              "bottom": 1004,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Eric D. Green, M.D., Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-279-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,4,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1099,
+              "bottom": 1122,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Richard Hodes, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,5,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1257,
+              "bottom": 1280,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "George Koob, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,6,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1395,
+              "bottom": 1418,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Hugh Auchincloss, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-282-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,7,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1554,
+              "bottom": 1599,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Lindsey A. Criswell, M.D., M.P.H., D.Sc.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-283-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,8,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1672,
+              "bottom": 1695,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Bruce J. Tromberg, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-284-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,9,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1830,
+              "bottom": 1853,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Diana W. Bianchi, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-285-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,10,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1968,
+              "bottom": 2014,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Debara L. Tucci, M.D., M.S., M.B.A.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-286-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,11,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2086,
+              "bottom": 2132,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Rena D’Souza, D.D.S., M.S., Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-287-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,12,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2290,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Griffin P. Rodgers, M.D., M.A.C.P.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-288-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,13,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2362,
+              "bottom": 2385,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Nora D. Volkow, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-289-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,14,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2500,
+              "bottom": 2523,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Rick Woychik, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-290-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,15,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2639,
+              "bottom": 2661,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Jon R. Lorsch, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-291-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,16,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2777,
+              "bottom": 2800,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Joshua A. Gordon, M.D., Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-292-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,17,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2915,
+              "bottom": 2938,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Eliseo J. Pérez-Stable, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-293-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,18,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3053,
+              "bottom": 3076,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Walter J. Koroshetz, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-294-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,19,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3191,
+              "bottom": 3237,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 46
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Shannon N. Zenk, PhD, MPH, RN, FAAN",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-295-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,20,DIV,2,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3309,
+              "bottom": 3332,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Patricia F. Brennan, R.N., Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-296-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,0,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3546,
+              "bottom": 3569,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Ivor D’Souza",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-297-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,1,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3664,
+              "bottom": 3687,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Noni Byrnes, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-298-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,2,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3823,
+              "bottom": 3845,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Peter Kilmarx, M.D. (Acting)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-299-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,3,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3961,
+              "bottom": 3984,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Helene M. Langevin, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-300-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,4,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4099,
+              "bottom": 4122,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Joni L. Rutter, Ph.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-301-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,3,DIV,22,DIV,5,DIV,2,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4217,
+              "bottom": 4240,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "James K. Gilman, M.D.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 27
+  }
+]

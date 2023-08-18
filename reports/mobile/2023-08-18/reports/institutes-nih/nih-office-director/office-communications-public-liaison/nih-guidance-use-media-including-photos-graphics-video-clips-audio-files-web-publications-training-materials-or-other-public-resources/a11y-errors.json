@@ -1,0 +1,128 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,12,P,0,A",
+            "selector": "div.syndicate > div > p.footnote > a#ftn2",
+            "boundingRect": {
+              "top": 4608,
+              "bottom": 4625,
+              "left": 16,
+              "right": 20,
+              "width": 4,
+              "height": 17
+            },
+            "snippet": "<a href=\"#ftnref2\" id=\"ftn2\" name=\"ftn2\">",
+            "nodeLabel": "2",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: ftn2"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-129-A",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,P,0,A",
+                  "selector": "div.syndicate > div > p.footnote > a#ftn2",
+                  "boundingRect": {
+                    "top": 4706,
+                    "bottom": 4723,
+                    "left": 16,
+                    "right": 20,
+                    "width": 4,
+                    "height": 17
+                  },
+                  "snippet": "<a href=\"#ftnref3\" id=\"ftn2\" name=\"ftn3\">",
+                  "nodeLabel": "3"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,H4",
+            "selector": "div.ds-1col > div.syndicate > div > h4",
+            "boundingRect": {
+              "top": 4425,
+              "bottom": 4493,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 69
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Join the NIH effort to make all materials used on NIH websites available for us…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

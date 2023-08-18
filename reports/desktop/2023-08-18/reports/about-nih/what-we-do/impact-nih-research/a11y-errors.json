@@ -1,0 +1,91 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,UL,0,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1992,
+              "bottom": 2015,
+              "left": 502,
+              "right": 1232,
+              "width": 729,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Genetic variant associated with absence of COVID-19 symptoms",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,UL,1,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2100,
+              "bottom": 2123,
+              "left": 502,
+              "right": 1232,
+              "width": 729,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Hearing aids slow cognitive decline in people at high risk",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,5,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2208,
+              "bottom": 2231,
+              "left": 502,
+              "right": 1232,
+              "width": 729,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Cell atlases give detailed views of human organs",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

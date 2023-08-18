@@ -1,0 +1,96 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,18,UL,2,LI,1,A",
+            "selector": "div > ul.spaced > li > a",
+            "boundingRect": {
+              "top": 3831,
+              "bottom": 3850,
+              "left": 263,
+              "right": 303,
+              "width": 40,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://order.nia.nih.gov/sites/default/files/2018-02/Understanding-Memory…\" onmousedown=\"_sendEvent('Outbound Downloads','pdf','https://order.nia.nih.gov/sites/def…\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-214-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,28,UL,2,LI,1,A",
+            "selector": "div > ul.spaced > li > a",
+            "boundingRect": {
+              "top": 4861,
+              "bottom": 4880,
+              "left": 180,
+              "right": 184,
+              "width": 4,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://easyread.drugabuse.gov/content/drug-use-and-mental-health-problems…\" onmousedown=\"_sendEvent('Outbound','easyread.drugabuse.gov','/content/drug-use-and-ment…\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-661-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,235,UL,5,LI,2,A",
+            "selector": "div > ul.spaced > li > a",
+            "boundingRect": {
+              "top": 33783,
+              "bottom": 33802,
+              "left": 242,
+              "right": 242,
+              "width": 0,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.nhlbi.nih.gov/health-topics/all-publications-and-resources/hea…\" onmousedown=\"_sendEvent('Outbound','www.nhlbi.nih.gov','/health-topics/all-publications…\">",
+            "nodeLabel": "div > ul.spaced > li > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
