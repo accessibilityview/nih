@@ -1,0 +1,2294 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-368-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 504,
+              "bottom": 527,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Clear Communication",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-369-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 776,
+              "bottom": 799,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Clinical Trials Publications",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-370-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 889,
+              "bottom": 911,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Education in Palliative and End-of-Life Care for Oncology",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-371-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,7,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1072,
+              "bottom": 1094,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Eye Health Education Program (NEHEP)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-372-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1255,
+              "bottom": 1277,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Learn More Breathe BetterSM ",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-373-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1367,
+              "bottom": 1390,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "The Heart Truth®",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-374-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,2,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1480,
+              "bottom": 1502,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "We Can! (Ways to Enhance Children’s Activity & Nutrition)®",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-375-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1663,
+              "bottom": 1685,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Family History Initiative",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-376-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1775,
+              "bottom": 1797,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National DNA Day",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-377-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,0,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1958,
+              "bottom": 1980,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Underage Drinking Research Initiative",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-378-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,1,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2070,
+              "bottom": 2093,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "College Drinking: Changing the Culture",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-379-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,2,DIV,1,H4",
+            "selector": "div > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2183,
+              "bottom": 2205,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Rethinking Drinking",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-380-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2366,
+              "bottom": 2388,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": " Educational Health Resources for Your Community",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-381-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2482,
+              "bottom": 2504,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Health Topics A–Z",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-382-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2665,
+              "bottom": 2687,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Safe to Sleep",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-383-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,1,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2777,
+              "bottom": 2800,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Child and Maternal Health Education Program (NCMHEP)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-384-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,5,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 2960,
+              "bottom": 2983,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "It’s a Noisy Planet. Protect Their Hearing® (Noisy Planet)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-385-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3159,
+              "bottom": 3181,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Developmental Disabilities and Oral Health",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-386-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,1,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3271,
+              "bottom": 3294,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Cancer Treatment and Oral Health",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-387-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,2,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3384,
+              "bottom": 3406,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Oral Cancer: What African American Men Need to Know",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-388-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,9,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3567,
+              "bottom": 3589,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Sisters Together: Move More, Eat Better",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-389-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3750,
+              "bottom": 3772,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Learn the Link - Drugs and HIV",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-390-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,1,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3862,
+              "bottom": 3885,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "National Drug Facts Week",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-391-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,2,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 3990,
+              "bottom": 4013,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "PEERx",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-392-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,13,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4173,
+              "bottom": 4196,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Know Stroke: Know the Signs. Act in Time.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-393-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,14,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4289,
+              "bottom": 4312,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Mind Your Risks",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-394-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,15,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4405,
+              "bottom": 4428,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Migraine Trainer™",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-395-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,17,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4588,
+              "bottom": 4611,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Palliative Care: Conversations Matter",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-396-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,20,DIV,0,DIV,1,H4",
+            "selector": "div.teaser-list > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 4861,
+              "bottom": 4883,
+              "left": 486,
+              "right": 1253,
+              "width": 767,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Know the Science",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 29
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-122-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 507,
+              "bottom": 507,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/institutes-nih/nih-office-director/office-communications-public-liaison/c…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-123-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 507,
+              "bottom": 507,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/institutes-nih/nih-office-director/office-communications-public-liaison/c…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-124-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-5876 > a",
+            "boundingRect": {
+              "top": 507,
+              "bottom": 507,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/institutes-nih/nih-office-director/office-communications-public-liaison/c…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-5876 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-125-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-5876 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 555,
+              "bottom": 585,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"/institutes-nih/nih-office-director/office-communications-public-liaison/c…\">",
+            "nodeLabel": "div.media > div#file-5876 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 779,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/about-cancer/treatment/clinical-trials\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/about-cancer/treatment/clinical-t…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 779,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/about-cancer/treatment/clinical-trials\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/about-cancer/treatment/clinical-t…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-130-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7481 > a",
+            "boundingRect": {
+              "top": 779,
+              "bottom": 779,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/about-cancer/treatment/clinical-trials\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/about-cancer/treatment/clinical-t…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7481 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7481 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 827,
+              "bottom": 857,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/about-cancer/treatment/clinical-trials\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/about-cancer/treatment/clinical-t…\">",
+            "nodeLabel": "div.media > div#file-7481 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 892,
+              "bottom": 892,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/resources-for/hp/education/epeco\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/resources-for/hp/education/epeco'…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 892,
+              "bottom": 892,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/resources-for/hp/education/epeco\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/resources-for/hp/education/epeco'…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7486 > a",
+            "boundingRect": {
+              "top": 892,
+              "bottom": 892,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/resources-for/hp/education/epeco\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/resources-for/hp/education/epeco'…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7486 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,5,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7486 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 940,
+              "bottom": 970,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.cancer.gov/resources-for/hp/education/epeco\" onmousedown=\"_sendEvent('Outbound','www.cancer.gov','/resources-for/hp/education/epeco'…\">",
+            "nodeLabel": "div.media > div#file-7486 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1075,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://nei.nih.gov/nehep/\" onmousedown=\"_sendEvent('Outbound','nei.nih.gov','/nehep/',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1075,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://nei.nih.gov/nehep/\" onmousedown=\"_sendEvent('Outbound','nei.nih.gov','/nehep/',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7531 > a",
+            "boundingRect": {
+              "top": 1075,
+              "bottom": 1075,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://nei.nih.gov/nehep/\" onmousedown=\"_sendEvent('Outbound','nei.nih.gov','/nehep/',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7531 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,7,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7531 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1123,
+              "bottom": 1153,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://nei.nih.gov/nehep/\" onmousedown=\"_sendEvent('Outbound','nei.nih.gov','/nehep/',0);\">",
+            "nodeLabel": "div.media > div#file-7531 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1370,
+              "bottom": 1370,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nhlbi.nih.gov/health/educational/hearttruth/\" onmousedown=\"_sendEvent('Outbound','www.nhlbi.nih.gov','/health/educational/hearttruth/…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1370,
+              "bottom": 1370,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nhlbi.nih.gov/health/educational/hearttruth/\" onmousedown=\"_sendEvent('Outbound','www.nhlbi.nih.gov','/health/educational/hearttruth/…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7541 > a",
+            "boundingRect": {
+              "top": 1370,
+              "bottom": 1370,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nhlbi.nih.gov/health/educational/hearttruth/\" onmousedown=\"_sendEvent('Outbound','www.nhlbi.nih.gov','/health/educational/hearttruth/…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7541 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,9,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7541 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1418,
+              "bottom": 1448,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nhlbi.nih.gov/health/educational/hearttruth/\" onmousedown=\"_sendEvent('Outbound','www.nhlbi.nih.gov','/health/educational/hearttruth/…\">",
+            "nodeLabel": "div.media > div#file-7541 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1666,
+              "bottom": 1666,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1666,
+              "bottom": 1666,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7556 > a",
+            "boundingRect": {
+              "top": 1666,
+              "bottom": 1666,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7556 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7556 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1714,
+              "bottom": 1744,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.media > div#file-7556 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1778,
+              "bottom": 1778,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1778,
+              "bottom": 1778,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7561 > a",
+            "boundingRect": {
+              "top": 1778,
+              "bottom": 1778,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7561 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,11,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7561 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1826,
+              "bottom": 1856,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.genome.gov/17516481\" onmousedown=\"_sendEvent('Outbound','www.genome.gov','/17516481',0);\">",
+            "nodeLabel": "div.media > div#file-7561 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1961,
+              "bottom": 1961,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niaaa.nih.gov/research/major-initiatives/underage-drinking-rese…\" onmousedown=\"_sendEvent('Outbound','www.niaaa.nih.gov','/research/major-initiatives/und…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1961,
+              "bottom": 1961,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niaaa.nih.gov/research/major-initiatives/underage-drinking-rese…\" onmousedown=\"_sendEvent('Outbound','www.niaaa.nih.gov','/research/major-initiatives/und…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7571 > a",
+            "boundingRect": {
+              "top": 1961,
+              "bottom": 1961,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niaaa.nih.gov/research/major-initiatives/underage-drinking-rese…\" onmousedown=\"_sendEvent('Outbound','www.niaaa.nih.gov','/research/major-initiatives/und…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7571 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7571 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 2009,
+              "bottom": 2039,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.niaaa.nih.gov/research/major-initiatives/underage-drinking-rese…\" onmousedown=\"_sendEvent('Outbound','www.niaaa.nih.gov','/research/major-initiatives/und…\">",
+            "nodeLabel": "div.media > div#file-7571 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 2073,
+              "bottom": 2073,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.collegedrinkingprevention.gov\" onmousedown=\"_sendEvent('Outbound','www.collegedrinkingprevention.gov','/',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 2073,
+              "bottom": 2073,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.collegedrinkingprevention.gov\" onmousedown=\"_sendEvent('Outbound','www.collegedrinkingprevention.gov','/',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7576 > a",
+            "boundingRect": {
+              "top": 2073,
+              "bottom": 2073,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.collegedrinkingprevention.gov\" onmousedown=\"_sendEvent('Outbound','www.collegedrinkingprevention.gov','/',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7576 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-177-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7576 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 2122,
+              "bottom": 2152,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.collegedrinkingprevention.gov\" onmousedown=\"_sendEvent('Outbound','www.collegedrinkingprevention.gov','/',0);\">",
+            "nodeLabel": "div.media > div#file-7576 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 2186,
+              "bottom": 2186,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://rethinkingdrinking.niaaa.nih.gov\" onmousedown=\"_sendEvent('Outbound','rethinkingdrinking.niaaa.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,2,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 2186,
+              "bottom": 2186,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://rethinkingdrinking.niaaa.nih.gov\" onmousedown=\"_sendEvent('Outbound','rethinkingdrinking.niaaa.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,2,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7581 > a",
+            "boundingRect": {
+              "top": 2186,
+              "bottom": 2186,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://rethinkingdrinking.niaaa.nih.gov\" onmousedown=\"_sendEvent('Outbound','rethinkingdrinking.niaaa.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7581 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-183-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,13,DIV,2,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7581 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 2234,
+              "bottom": 2264,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://rethinkingdrinking.niaaa.nih.gov\" onmousedown=\"_sendEvent('Outbound','rethinkingdrinking.niaaa.nih.gov','/',0);\">",
+            "nodeLabel": "div.media > div#file-7581 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 2668,
+              "bottom": 2668,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/sts/Pages/default.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/sts/Pages/default.aspx',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 2668,
+              "bottom": 2668,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/sts/Pages/default.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/sts/Pages/default.aspx',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7591 > a",
+            "boundingRect": {
+              "top": 2668,
+              "bottom": 2668,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/sts/Pages/default.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/sts/Pages/default.aspx',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7591 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7591 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 2716,
+              "bottom": 2746,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/sts/Pages/default.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/sts/Pages/default.aspx',0);\">",
+            "nodeLabel": "div.media > div#file-7591 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 2780,
+              "bottom": 2780,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/ncmhep/Pages/index.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/ncmhep/Pages/index.aspx',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 2780,
+              "bottom": 2780,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/ncmhep/Pages/index.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/ncmhep/Pages/index.aspx',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7601 > a",
+            "boundingRect": {
+              "top": 2780,
+              "bottom": 2780,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/ncmhep/Pages/index.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/ncmhep/Pages/index.aspx',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7601 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-201-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,3,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7601 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 2828,
+              "bottom": 2858,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nichd.nih.gov/ncmhep/Pages/index.aspx\" onmousedown=\"_sendEvent('Outbound','www.nichd.nih.gov','/ncmhep/Pages/index.aspx',0);\">",
+            "nodeLabel": "div.media > div#file-7601 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,5,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 2963,
+              "bottom": 2963,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.noisyplanet.nidcd.nih.gov/Pages/Default.aspx\" onmousedown=\"_sendEvent('Outbound','www.noisyplanet.nidcd.nih.gov','/Pages/Default.aspx…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,5,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 2963,
+              "bottom": 2963,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.noisyplanet.nidcd.nih.gov/Pages/Default.aspx\" onmousedown=\"_sendEvent('Outbound','www.noisyplanet.nidcd.nih.gov','/Pages/Default.aspx…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,5,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7606 > a",
+            "boundingRect": {
+              "top": 2963,
+              "bottom": 2963,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.noisyplanet.nidcd.nih.gov/Pages/Default.aspx\" onmousedown=\"_sendEvent('Outbound','www.noisyplanet.nidcd.nih.gov','/Pages/Default.aspx…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7606 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-207-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,5,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7606 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3011,
+              "bottom": 3041,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.noisyplanet.nidcd.nih.gov/Pages/Default.aspx\" onmousedown=\"_sendEvent('Outbound','www.noisyplanet.nidcd.nih.gov','/Pages/Default.aspx…\">",
+            "nodeLabel": "div.media > div#file-7606 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-210-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3162,
+              "bottom": 3162,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/DevelopmentalDisabilities/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/Developmenta…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-211-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3162,
+              "bottom": 3162,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/DevelopmentalDisabilities/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/Developmenta…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-212-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7611 > a",
+            "boundingRect": {
+              "top": 3162,
+              "bottom": 3162,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/DevelopmentalDisabilities/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/Developmenta…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7611 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-213-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7611 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3210,
+              "bottom": 3240,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/DevelopmentalDisabilities/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/Developmenta…\">",
+            "nodeLabel": "div.media > div#file-7611 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-216-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3274,
+              "bottom": 3274,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/CancerTreatment/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/CancerTreatm…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-217-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3274,
+              "bottom": 3274,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/CancerTreatment/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/CancerTreatm…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-218-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7616 > a",
+            "boundingRect": {
+              "top": 3274,
+              "bottom": 3274,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/CancerTreatment/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/CancerTreatm…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7616 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-219-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7616 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3323,
+              "bottom": 3353,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/CancerTreatment/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/CancerTreatm…\">",
+            "nodeLabel": "div.media > div#file-7616 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3387,
+              "bottom": 3387,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/OralCancer/AfricanAmericanMen/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/OralCancer/A…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,2,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3387,
+              "bottom": 3387,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/OralCancer/AfricanAmericanMen/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/OralCancer/A…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-224-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,2,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7626 > a",
+            "boundingRect": {
+              "top": 3387,
+              "bottom": 3387,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/OralCancer/AfricanAmericanMen/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/OralCancer/A…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7626 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,7,DIV,2,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7626 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3435,
+              "bottom": 3465,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.nidcr.nih.gov/OralHealth/Topics/OralCancer/AfricanAmericanMen/\" onmousedown=\"_sendEvent('Outbound','www.nidcr.nih.gov','/OralHealth/Topics/OralCancer/A…\">",
+            "nodeLabel": "div.media > div#file-7626 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-228-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,9,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3570,
+              "bottom": 3570,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niddk.nih.gov/health-information/health-topics/weight-control/s…\" onmousedown=\"_sendEvent('Outbound','www.niddk.nih.gov','/health-information/health-topi…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-229-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,9,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3570,
+              "bottom": 3570,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niddk.nih.gov/health-information/health-topics/weight-control/s…\" onmousedown=\"_sendEvent('Outbound','www.niddk.nih.gov','/health-information/health-topi…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-230-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,9,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7661 > a",
+            "boundingRect": {
+              "top": 3570,
+              "bottom": 3570,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.niddk.nih.gov/health-information/health-topics/weight-control/s…\" onmousedown=\"_sendEvent('Outbound','www.niddk.nih.gov','/health-information/health-topi…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7661 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,9,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7661 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3618,
+              "bottom": 3648,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.niddk.nih.gov/health-information/health-topics/weight-control/s…\" onmousedown=\"_sendEvent('Outbound','www.niddk.nih.gov','/health-information/health-topi…\">",
+            "nodeLabel": "div.media > div#file-7661 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3753,
+              "bottom": 3753,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.drugabuse.gov/news-events/public-education-projects/learn-link…\" onmousedown=\"_sendEvent('Outbound','www.drugabuse.gov','/news-events/public-education-p…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3753,
+              "bottom": 3753,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.drugabuse.gov/news-events/public-education-projects/learn-link…\" onmousedown=\"_sendEvent('Outbound','www.drugabuse.gov','/news-events/public-education-p…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7671 > a",
+            "boundingRect": {
+              "top": 3753,
+              "bottom": 3753,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.drugabuse.gov/news-events/public-education-projects/learn-link…\" onmousedown=\"_sendEvent('Outbound','www.drugabuse.gov','/news-events/public-education-p…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7671 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7671 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3801,
+              "bottom": 3831,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.drugabuse.gov/news-events/public-education-projects/learn-link…\" onmousedown=\"_sendEvent('Outbound','www.drugabuse.gov','/news-events/public-education-p…\">",
+            "nodeLabel": "div.media > div#file-7671 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-240-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,1,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3865,
+              "bottom": 3865,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/national-drug-facts-week\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/national-drug-facts-week',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-241-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,1,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3865,
+              "bottom": 3865,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/national-drug-facts-week\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/national-drug-facts-week',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-242-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7676 > a",
+            "boundingRect": {
+              "top": 3865,
+              "bottom": 3865,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/national-drug-facts-week\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/national-drug-facts-week',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7676 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-243-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7676 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 3913,
+              "bottom": 3943,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/national-drug-facts-week\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/national-drug-facts-week',0);\">",
+            "nodeLabel": "div.media > div#file-7676 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-246-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 3993,
+              "bottom": 3993,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/peerx\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/peerx',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,2,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 3993,
+              "bottom": 3993,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/peerx\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/peerx',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,2,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7681 > a",
+            "boundingRect": {
+              "top": 3993,
+              "bottom": 3993,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/peerx\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/peerx',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7681 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,11,DIV,2,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7681 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 4042,
+              "bottom": 4072,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://teens.drugabuse.gov/peerx\" onmousedown=\"_sendEvent('Outbound','teens.drugabuse.gov','/peerx',0);\">",
+            "nodeLabel": "div.media > div#file-7681 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,13,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 4176,
+              "bottom": 4176,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://stroke.nih.gov\" onmousedown=\"_sendEvent('Outbound','stroke.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,13,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 4176,
+              "bottom": 4176,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://stroke.nih.gov\" onmousedown=\"_sendEvent('Outbound','stroke.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,13,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7686 > a",
+            "boundingRect": {
+              "top": 4176,
+              "bottom": 4176,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://stroke.nih.gov\" onmousedown=\"_sendEvent('Outbound','stroke.nih.gov','/',0);\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7686 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,13,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7686 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 4225,
+              "bottom": 4255,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://stroke.nih.gov\" onmousedown=\"_sendEvent('Outbound','stroke.nih.gov','/',0);\">",
+            "nodeLabel": "div.media > div#file-7686 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-262-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,17,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 4591,
+              "bottom": 4591,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.ninr.nih.gov/newsandinformation/conversationsmatter#.VV4y4uuwwqU\" onmousedown=\"_sendEvent('Outbound','www.ninr.nih.gov','/newsandinformation/conversation…\">",
+            "nodeLabel": "div.teaser-list > div.teaser > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,17,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 4591,
+              "bottom": 4591,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.ninr.nih.gov/newsandinformation/conversationsmatter#.VV4y4uuwwqU\" onmousedown=\"_sendEvent('Outbound','www.ninr.nih.gov','/newsandinformation/conversation…\">",
+            "nodeLabel": "div.teaser > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-264-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,17,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-7691 > a",
+            "boundingRect": {
+              "top": 4591,
+              "bottom": 4591,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"http://www.ninr.nih.gov/newsandinformation/conversationsmatter#.VV4y4uuwwqU\" onmousedown=\"_sendEvent('Outbound','www.ninr.nih.gov','/newsandinformation/conversation…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-7691 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,15,DIV,17,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-7691 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 4640,
+              "bottom": 4670,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"http://www.ninr.nih.gov/newsandinformation/conversationsmatter#.VV4y4uuwwqU\" onmousedown=\"_sendEvent('Outbound','www.ninr.nih.gov','/newsandinformation/conversation…\">",
+            "nodeLabel": "div.media > div#file-7691 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 88
+  }
+]

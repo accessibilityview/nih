@@ -1,0 +1,186 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-230-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 426,
+              "bottom": 449,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Take the Virtual Tour",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 564,
+              "bottom": 587,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Getting to NIH",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-232-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 702,
+              "bottom": 725,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Campus Access and Security",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-233-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,3,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 840,
+              "bottom": 863,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Parking",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-234-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,4,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 979,
+              "bottom": 1001,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Campus Shuttle",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-235-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,5,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1117,
+              "bottom": 1140,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "NIH Visitor Center and Tours",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-236-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,6,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1255,
+              "bottom": 1278,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Popular NIH Destinations",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-237-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,7,DIV,1,H4",
+            "selector": "div.ds-1col > div.teaser-list > div.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1393,
+              "bottom": 1416,
+              "left": 147,
+              "right": 396,
+              "width": 249,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Maps",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

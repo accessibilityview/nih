@@ -1,0 +1,242 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-274-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,26,DIV,1,H4",
+            "selector": "div.l-content > div.ds-1col > div.collapsible > h4.collapsible-trigger",
+            "boundingRect": {
+              "top": 3540,
+              "bottom": 3590,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 50
+            },
+            "snippet": "<h4 class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "UNITE CO-CHAIRS",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,3,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-power-inclusive-workpla…\">",
+            "nodeLabel": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,3,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser-clickable > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-power-inclusive-workpla…\">",
+            "nodeLabel": "div.teaser-clickable > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,3,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-66696 > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-power-inclusive-workpla…\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-66696 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,3,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-66696 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1432,
+              "bottom": 1462,
+              "left": 382,
+              "right": 382,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-power-inclusive-workpla…\">",
+            "nodeLabel": "div.media > div#file-66696 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,4,DIV,0,DIV,0,A",
+            "selector": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 679,
+              "right": 679,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-events\">",
+            "nodeLabel": "div.teaser-list-landing > div.teaser-clickable > div.teaser-thumbnail > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,4,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.teaser-clickable > div.teaser-thumbnail > div.media > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 679,
+              "right": 679,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-events\">",
+            "nodeLabel": "div.teaser-clickable > div.teaser-thumbnail > div.media > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,4,DIV,0,DIV,1,DIV,1,DIV,0,A",
+            "selector": "div.teaser-thumbnail > div.media > div#file-68501 > a",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1384,
+              "left": 679,
+              "right": 679,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-events\">",
+            "nodeLabel": "div.teaser-thumbnail > div.media > div#file-68501 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,7,DIV,4,DIV,0,DIV,1,DIV,1,DIV,1,H2,0,A",
+            "selector": "div.media > div#file-68501 > h2.element-invisible > a",
+            "boundingRect": {
+              "top": 1432,
+              "bottom": 1462,
+              "left": 679,
+              "right": 679,
+              "width": 0,
+              "height": 30
+            },
+            "snippet": "<a href=\"https://www.nih.gov/ending-structural-racism/unite-events\">",
+            "nodeLabel": "div.media > div#file-68501 > h2.element-invisible > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]

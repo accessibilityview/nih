@@ -1,0 +1,618 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-283-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,3,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 715,
+              "bottom": 739,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-284-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,6,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 817,
+              "bottom": 841,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-285-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,9,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 919,
+              "bottom": 944,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-286-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,12,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1021,
+              "bottom": 1046,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-287-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,15,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1123,
+              "bottom": 1148,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-288-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,19,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1283,
+              "bottom": 1307,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-289-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,22,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1385,
+              "bottom": 1409,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-290-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,25,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1487,
+              "bottom": 1512,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-291-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,28,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1589,
+              "bottom": 1614,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-292-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,31,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1692,
+              "bottom": 1716,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-293-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,34,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1794,
+              "bottom": 1818,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-294-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,37,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1896,
+              "bottom": 1921,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-295-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,40,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 1998,
+              "bottom": 2023,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-296-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,43,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2101,
+              "bottom": 2125,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-297-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,46,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2203,
+              "bottom": 2227,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-298-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,49,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2305,
+              "bottom": 2329,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-299-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,52,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2407,
+              "bottom": 2432,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-300-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,57,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2623,
+              "bottom": 2648,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-301-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,60,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2726,
+              "bottom": 2750,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-302-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,63,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2828,
+              "bottom": 2852,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-303-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,66,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 2930,
+              "bottom": 2955,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-304-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,69,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3032,
+              "bottom": 3057,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-305-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,72,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3135,
+              "bottom": 3159,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-306-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,75,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3237,
+              "bottom": 3261,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-307-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,78,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3339,
+              "bottom": 3364,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-308-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,81,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3441,
+              "bottom": 3466,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-309-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,84,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3544,
+              "bottom": 3568,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-310-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,87,P",
+            "selector": "div.syndicate > div > div.collapsible > p.collapsible-trigger",
+            "boundingRect": {
+              "top": 3646,
+              "bottom": 3670,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 24
+            },
+            "snippet": "<p class=\"collapsible-trigger\" data-collapse-summary=\"\" aria-expanded=\"false\">",
+            "nodeLabel": "Subwardees",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 28
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-311-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,1,H3",
+            "selector": "div.syndicate > div > div.collapsible > h3",
+            "boundingRect": {
+              "top": 611,
+              "bottom": 637,
+              "left": 382,
+              "right": 1253,
+              "width": 871,
+              "height": 26
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Awardees:",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

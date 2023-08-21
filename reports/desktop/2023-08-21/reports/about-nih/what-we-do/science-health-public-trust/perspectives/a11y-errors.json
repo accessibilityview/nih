@@ -1,0 +1,224 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 383,
+              "bottom": 405,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Addressing Rigor in Scientific Studies",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,1,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 532,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Communicating About Risky Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,2,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 636,
+              "bottom": 681,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 45
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Writing Respectfully: Person-First and Identity-First Language",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,3,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 765,
+              "bottom": 787,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Putting Stem Cell-Based Therapies in Context",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,4,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 893,
+              "bottom": 915,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Becoming Beacons of Trust",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,5,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1020,
+              "bottom": 1042,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Communicating About Tribal Health Research",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-259-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,6,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1146,
+              "bottom": 1191,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 45
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Tips for Communicating with and for LGBTQI+ Communities",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-260-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,7,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1275,
+              "bottom": 1298,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Putting Cancer Screening in Perspective",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-261-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,8,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1402,
+              "bottom": 1424,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Explaining How Research Works",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-262-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,UL,9,LI,1,H4",
+            "selector": "div.view-content > ul.teaser-list > li.teaser > h4.teaser-title",
+            "boundingRect": {
+              "top": 1552,
+              "bottom": 1574,
+              "left": 502,
+              "right": 968,
+              "width": 466,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"teaser-title\">",
+            "nodeLabel": "Beyond Primary Endpoints: What to Believe?",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-SPAN",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+            "selector": "div.media-float-right > div.media > div.ds-1col > span.caption",
+            "boundingRect": {
+              "top": 1275,
+              "bottom": 1329,
+              "left": 767,
+              "right": 935,
+              "width": 168,
+              "height": 54
+            },
+            "snippet": "<span class=\"caption\">",
+            "nodeLabel": "1959 postage stamp with the Tree of Hippocrates in Cos, Greece.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-223-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV",
+                  "selector": "div.ds-1col > div.syndicate > div > div.callout",
+                  "boundingRect": {
+                    "top": 1112,
+                    "bottom": 1347,
+                    "left": 382,
+                    "right": 968,
+                    "width": 585,
+                    "height": 235
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "1959 postage stamp with the Tree of Hippocrates in Cos, Greece.\n\nWherever the a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-224-P",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV,3,P",
+            "selector": "div.syndicate > div > div.callout > p.caption",
+            "boundingRect": {
+              "top": 1274,
+              "bottom": 1294,
+              "left": 404,
+              "right": 940,
+              "width": 536,
+              "height": 19
+            },
+            "snippet": "<p class=\"caption\">",
+            "nodeLabel": "-Hippocrates, Precepts (ΠΑΡΑΓΓΕΛΙΑΙ), paragraph 6",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-223-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV",
+                  "selector": "div.ds-1col > div.syndicate > div > div.callout",
+                  "boundingRect": {
+                    "top": 1112,
+                    "bottom": 1347,
+                    "left": 382,
+                    "right": 968,
+                    "width": 585,
+                    "height": 235
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "1959 postage stamp with the Tree of Hippocrates in Cos, Greece.\n\nWherever the a…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-225-EM",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV,3,P,1,EM",
+            "selector": "div > div.callout > p.caption > em",
+            "boundingRect": {
+              "top": 1276,
+              "bottom": 1291,
+              "left": 485,
+              "right": 621,
+              "width": 136,
+              "height": 15
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Precepts (ΠΑΡΑΓΓΕΛΙΑΙ)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #757575, background color: #f2f2ed, font size: 9.7pt (12.96px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-223-DIV",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DIV,2,DIV,4,DIV",
+                  "selector": "div.ds-1col > div.syndicate > div > div.callout",
+                  "boundingRect": {
+                    "top": 1112,
+                    "bottom": 1347,
+                    "left": 382,
+                    "right": 968,
+                    "width": 585,
+                    "height": 235
+                  },
+                  "snippet": "<div class=\"callout\">",
+                  "nodeLabel": "1959 postage stamp with the Tree of Hippocrates in Cos, Greece.\n\nWherever the a…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-226-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,2,DIV,0,DIV,4,DIV,1,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.content > div.box > div.ds-1col > h3.block__title",
+            "boundingRect": {
+              "top": 296,
+              "bottom": 348,
+              "left": 1019,
+              "right": 1253,
+              "width": 235,
+              "height": 52
+            },
+            "snippet": "<h3 class=\"block__title\">",
+            "nodeLabel": "Planting & Dedication Ceremony",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
